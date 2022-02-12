@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Tips calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+
+    <div id="main">
+        <div id="header">
+           <h1>BILLSPLITTER </h1>
+            PODZIEL SIĘ RACHUNKIEM ZE ZNAJOMYMI :)
+        </div>
+        <div id="calcBody">
+            Kwota do zapłaty: <br>
+            <input id="sum" type="number"> <br> <br>
+            Ilość osób: <br>
+            <input id="people" type="number"> <br> <br>
+            Napiwek <br>
+            <select id="selectedEl">
+                <option value=" wybierz napiwek -">- wybierz napiwek -</option>
+                <option value="5">5%</option>
+                <option value="10">10%</option>
+                <option value="15">15%</option>
+                <option value="20">20%</option>
+            </select> <br> <br>
+            <input type="button" value="Oblicz" id="calculate">
+        </div>
+        <p id="result"></p>
+    </div>
+    
+</body>
+</html>
